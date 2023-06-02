@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #page-banner {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  #book-list {
+    margin-top: 20px;
+  }
+  
+  #book-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #book-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #book-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  #book-list li .delete {
+    color: red;
+    cursor: pointer;
+  }
+  
+  #tabbed-content {
+    margin-top: 20px;
+  }
+  
+  .tabs {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #f2f2f2;
+  }
+  
+  .tabs li {
+    padding: 10px;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .tabs li.active {
+    background-color: lightgreen;
+  }
+  
+  .panel {
+    display: none;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .panel.active {
+    display: block;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    padding: 8px 16px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: lightgreen;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  input[type="checkbox"] + label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"] + label::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+    background-color: #fff;
+  }
+  
+  input[type="checkbox"]:checked + label::before {
+    background-color: rgb(171, 183, 171);
+  }
+  
+  input[type="checkbox"] + label:hover::before {
+    border-color: #999;
+  }
+
+  #book-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #book-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  #book-list li .name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #book-list li .delete {
+    color: #999;
+    cursor: pointer;
+  }
+  
+  #book-list li .delete:hover {
+    color: red;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  #hide {
+    margin-bottom: 10px;
+  }
+  
+  #add-book {
+    padding-top: 20px;
+  }
